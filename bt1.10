@@ -30,7 +30,7 @@ P.y=temp;
 }
 void XuatDiem(DIEM P)
 {
-printf("%f,%f",P.x,P.y);
+printf("(%f,%f)",P.x,P.y);
 }
 void NhapDuongTron(DUONGTRON &c)
 {
@@ -38,7 +38,7 @@ printf("\nNhap tam:");
 NhapDiem(c.I);
 float temp;
 printf("\nNhap ban kinh:");
-sacnf("%f",&temp);
+scanf("%f",&temp);
 c.R=temp;
 }
 void XuatDuongTron(DUONGTRON c)
